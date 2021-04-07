@@ -132,4 +132,14 @@ else
 }
 
 
+var stop = false, age = 23;
+
+age > 18 ? (
+    alert("OK, puedes continuar."),
+    console.log("Acceso concedido")
+) : (
+    stop = true,
+    alert("Disculpa, eres menor de edad!"),
+    console.log("Acceso denegado")
+);
 
