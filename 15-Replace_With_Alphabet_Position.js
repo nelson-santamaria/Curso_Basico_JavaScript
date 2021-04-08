@@ -116,10 +116,6 @@ function alphabetPosition(text) {
   console.log(Text1);
 
   
-
-
-
-
 //---------------------------
 var Text2 = alphabetPosition("]r5.:.,^");
 
@@ -131,8 +127,10 @@ function alphabetPosition(text) {
       if (code > 64 && code < 91) result += (code - 64) + " ";
     }
   
-    return result.slice(0, result.length-1);
+    return result.slice(0, result.length-1);//  slice extrae una sección de una cadena y devuelve una cadena nueva.
 }
 
 console.log(Text2);
+
+//----------------------------
 
